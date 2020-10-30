@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import MovieList from "./Component/MovieList/MovieList";
-import { Movie} from "./Constants/data";
+import MovieList from "./Component/MovieList/MovieList"
+import { Movie } from "./Constants/data";
 import AddCard from "./Component/AddCard/AddCard";
-import Filter from "./Component/Filtrer/Filter";
+import Filter from "./Component/Filtrer/Filter"
 import "./App.css";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1> BEST MOVIE </h1>
+      <h1> Movie App </h1>
       <div className="filter-add">
         <AddCard addmovies={addmovies} />
         <Filter searchmovies={searchmovies} setRate={setRate} />

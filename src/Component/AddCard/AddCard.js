@@ -14,7 +14,7 @@ function AddCard({ addmovies }) {
   return (
     <>
       <Button variant="danger" onClick={handleShow}>
-        Ajouter un nouveau Film
+       Add a new film
       </Button>
 
       <Modal show={show} onHide={handleClose}>

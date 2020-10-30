@@ -6,7 +6,7 @@ function Filter({ searchmovies, setRate }) {
   return (
     <div>
       <div>
-        <Navbar className="bg-light justify-content-between">
+        <Navbar className="color-nav" variant="light">
           <Form inline>
             <FormControl
               type="text"
